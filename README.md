@@ -9,3 +9,6 @@ Currently, two official plugins are available:
 
 
 A simple business landing page
+
+# Deployment Link
+ - https://candle-hut.vercel.app/
