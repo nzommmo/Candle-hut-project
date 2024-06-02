@@ -1,7 +1,10 @@
 import image1 from "../assets/1.jpeg";
 import image2 from "../assets/2.jpeg"
 import image3 from "../assets/3.jpeg"
-
+import image4 from "../assets/4.jpeg"
+import image5 from "../assets/5.jpeg"
+import image6 from "../assets/6.jpeg"
+import image7 from "../assets/7.jpeg"
 
 
 const Blog = () => {
@@ -21,7 +24,11 @@ const Blog = () => {
 
             </div>
             <div className='rounded-lg w-1/4 h-1/4 border border-neutral-100 mx-2 my-4'>
-            <img src={image3} className=""/>
+            <img src={image3} className="h-50 w-30"/>
+
+            </div>
+            <div className='rounded-lg w-1/4 h-1/4 border border-neutral-100 mx-2 my-4'>
+            <img src={image6} className=""/>
 
             </div>
 
