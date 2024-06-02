@@ -1,7 +1,7 @@
 
 const HeroSection = () => {
   return (
-    <div className="sticky top-0 w-25 lg:w-1/2 border rounded-md border-customGreen ms-20 me-20 lg:ms-80">
+    <div className="top-0 w-25 lg:w-1/2 border rounded-md border-customGreen ms-20 me-20 lg:ms-80">
         <div className="container hover:tracking-widest   px-4 mx-auto relative flex-shrink-0 " >
             <div className="text-xl text-left font-irishGrover font-extrabold">
                 <p>CANDLE HUT</p>
