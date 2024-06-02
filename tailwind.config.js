@@ -8,6 +8,11 @@ export default {
     extend: {
       colors:{
         customGreen: '#35B88A'
+      },
+      fontFamily:{
+        irishGrover: ['"Irish Grover"','cursive'],
+        islandMoments : ['"Island Moments"','cursive'],
+        inknutAntiqua: ['"Inknut Antiqua"', 'serif']
       }
     },
   },
