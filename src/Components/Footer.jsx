@@ -1,8 +1,8 @@
 
 const Footer = () => {
   return (
-    <div className="mt-10 rounded-md  border md:ms-20 md:me-20">
-      <div className='mx-5 flex flex-row align-center justify-center gap-10 md:gap-20' >
+    <div className="mt-10 rounded-md w-full border px-3  me-20">
+      <div className='mx-5 flex flex-row align-center justify-center gap-8 md:gap-20' >
           <div className="">
             <h3 className="hover:underline text-lg flex flex-row align-center justify-center">Socials</h3> 
             <hr className="w-full"/>
@@ -29,7 +29,7 @@ const Footer = () => {
             <hr className="w-full"/>
 
             <h2 className="mt-2 mb-2">Leave Us a Review</h2>
-            <textarea className="rounded-md" name="" id="" cols="30" rows="5"></textarea>
+            <textarea className="rounded-md" name="" id="" cols="20" rows="5"></textarea>
           </div>
         </div>
 
