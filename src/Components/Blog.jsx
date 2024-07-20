@@ -20,7 +20,7 @@ const Blog = () => {
             </h2>
         <div className='flex flex-row align-center justify-center gap-5'>
             <div className='rounded-lg w-1/4 h-3/4 border border-neutral-100 mx-3 my-4'>
-            <img src={image1} className="h-full"/>
+            <img src={image1} className="h-50 w-30"/>
 
             </div>
             <div className='rounded-lg w-1/4 h-1/4 border border-neutral-100 mx-2 my-4'>
@@ -28,7 +28,7 @@ const Blog = () => {
 
             </div>
             <div className='rounded-lg w-1/4 h-1/4 border border-neutral-100 mx-2 my-4'>
-            <img src={image6} className=""/>
+            <img src={image6} className="h-50 w-30"/>
 
             </div>
 
