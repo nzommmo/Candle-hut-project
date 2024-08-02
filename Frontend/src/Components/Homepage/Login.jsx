@@ -3,8 +3,10 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { X } from 'lucide-react';
 import SignUp from './SignUp';
+import { useUser } from '../UserContext';
 
 const Login = ({ isOpen, onClose }) => {
+    const { setUser } = useUser(); 
     const [showSignUp, setShowSignUp] = useState(false);
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
@@ -22,6 +24,7 @@ const Login = ({ isOpen, onClose }) => {
             setSuccess('Login successful!'); 
             setError(''); 
             navigate('/products'); // Redirect to the products page
+            setUser({ username }); 
         } catch (error) {
             console.error('Error during login:', error);
             if (error.response && error.response.data) {
