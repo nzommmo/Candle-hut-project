@@ -8,7 +8,7 @@ const ProductsHeader = () => {
   return (
     <div className='sticky'>
       <div className='bg-neutral-800'>
-        <div className='flex items-center gap-5 justify-end'>
+        <div className='flex items-center gap-5 justify-end me-5'>
           <p>{user ? user.username : 'Guest'}</p>  {/* Display username if user is logged in */}
           <button>Logout</button>
         </div>
