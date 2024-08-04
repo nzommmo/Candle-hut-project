@@ -2,10 +2,13 @@ import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import logo from "../../assets/CANDLE_HUT_LOGO__1_-removebg-preview.png";
 import Login from './Login';
+import { useNavigate } from 'react-router-dom'; 
 
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
     const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
+
+    const navigate = useNavigate(); // Move useNavigate outside the function
 
     const toggleNavbar = () => {
         setMobileDrawerOpen(!mobileDrawerOpen);
@@ -33,6 +36,7 @@ const Navbar = () => {
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Contact Us</a></li>
+                            <li><a href="#" onClick={() => navigate('/products')}>Products</a></li>
                             <li>
                                 <a href="#" onClick={openLoginModal} className='bg-customGreen text-l px-5 py-1 rounded'>
                                     Login
@@ -51,6 +55,7 @@ const Navbar = () => {
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Contact Us</a></li>
+                                <li><a href="#" onClick={() => navigate('/products')}>Products</a></li>
                                 <li>
                                     <a href="#" onClick={openLoginModal} className='bg-customGreen text-l px-5 py-1 rounded'>
                                         Login
