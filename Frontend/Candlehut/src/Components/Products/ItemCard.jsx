@@ -3,6 +3,7 @@ import React from 'react';
 const ItemCard = ({ name, price, image }) => {
   // Construct the image URL based on the relative path returned from the API
   const imageUrl = image ? `${image}` : ''; // Ensure the URL is correctly formatted
+  // Construct the image URL based on the relative path returned from the API
 
   return (
     <div className="relative h-full w-[210px] rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow my-2 mx-2">
