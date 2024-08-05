@@ -12,7 +12,7 @@ import { Globe2Icon} from "lucide-react";
 const Footer = () => {
   return (
     <div className="mt-10 rounded-md w-full border px-3  ">
-      <div className='mx-5 flex flex-row align-center justify-between gap-8 md:gap-20' >
+      <div className='mx-5 flex flex-row align-center justify-center gap-8 md:gap-20' >
           <div className="">
             <h3 className="hover:underline text-lg flex flex-row align-center justify-center">Socials</h3> 
             <hr className="w-full"/>
