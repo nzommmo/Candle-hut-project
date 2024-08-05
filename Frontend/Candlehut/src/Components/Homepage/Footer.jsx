@@ -1,3 +1,4 @@
+import CopyrightFooter from "../Products/CopyrightFooter";
 import { Facebook } from "lucide-react";
 import { Twitter} from "lucide-react";
 import { InstagramIcon } from "lucide-react";
@@ -18,9 +19,9 @@ const Footer = () => {
             <hr className="w-full"/>
 
             <ul className="flex flex-col mt-2 gap-5 ">
-            <li><a href="#" className="flex gap-2 hover:text-customGreen"> <InstagramIcon/> Instagram</a></li>
-            <li><a href="#" className="flex gap-2 hover:text-customGreen"><Facebook/> Facebook</a></li>
-            <li><a href="#" className="flex gap-2 hover:text-customGreen"> <Twitter/> Twiiter</a></li>
+            <li><a href="#" className="flex gap-2 hover:text-customGreen"> <InstagramIcon/> Candle_Hut</a></li>
+            <li><a href="#" className="flex gap-2 hover:text-customGreen"><Facebook/> CandleHut_KE</a></li>
+            <li><a href="#" className="flex gap-2 hover:text-customGreen"> <Twitter/> CandleHut</a></li>
             </ul>
 
           </div>
@@ -45,11 +46,15 @@ const Footer = () => {
 
 
             </div>
+            
 
           </div>
+
           
           
         </div>
+        <CopyrightFooter/>
+
 
       </div>
   )

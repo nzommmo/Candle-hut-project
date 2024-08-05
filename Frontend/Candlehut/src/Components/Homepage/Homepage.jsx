@@ -5,7 +5,6 @@ import Footer from "./Footer"
 import Features from "./Features"
 
 
-
 const Homepage = () => {
   return (
     <>
