@@ -35,8 +35,12 @@ const Footer = () => {
             <hr className="w-full"/>
 
             <h2 className="mt-2 mb-2">Leave Us a Review</h2>
-            <textarea  className="rounded-md bg-white text-black"  name="" id="" cols="30" rows="5"></textarea>
+            <textarea  className="rounded-md bg-white text-black"  name="" id="" cols="20" rows="5"></textarea>
+            <div>
             <button className="bg-customGreen text-black px-5 float-right my-2 rounded">Send</button>
+
+
+            </div>
           </div>
         </div>
 
